@@ -101,7 +101,7 @@ pnpm dev
 
 ## Recommended Live Test
 
-Before giving this to someone else, run the MCP-level live smoke test:
+To confirm setup works, run the MCP-level live smoke test:
 
 ```bash
 pnpm smoke:mcp-live
@@ -160,4 +160,4 @@ Guard → tool → required args:
 
 Ask the agent:
 
-> Use the Framer MCP server. Follow the Canonical Workflow: orient, then inspect the relevant code file and target node, then `framer_preview_code_file_update` (keep the `expectedVersionId`), then `framer_apply_code_file_update`. Treat `diagnostics` against the pre-edit baseline — only pre-existing Framer URL-import noise is acceptable, and only with my explicit OK via `allowTypecheckErrors`. Never deploy to production unless I ask.
+> Use the Framer MCP server. Do <whatever you want>
